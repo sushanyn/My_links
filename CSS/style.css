@@ -66,11 +66,6 @@ a {
 	border-radius: 15px;
 	margin-top: 25px;
 }
-.link-card:hover {
-	background-color: #d3e805;
-	color: black;
-	transition: 0.5s ease-in-out;
-}
 .link-card p {
 	margin: 0;
 	font-size: 30px;
@@ -141,11 +136,15 @@ footer {
 }
 @media (hover: hover) {
 	.link-card:hover {
-		background-color: #d3e805;	
+		background-color: #d3e805;
+		color: black;
+		transition: 0.5s ease-in-out;
 	}	
 }
 @media (hover: none) {
 	.link-card:active {
 		background-color: #d3e805;	
+		color: black;
+		transition: 0.5s ease-in-out;
 	}
 }
