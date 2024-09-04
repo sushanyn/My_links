@@ -140,7 +140,7 @@ footer {
 	}
 }
 @media (hover: none) {
-	button:active {
+	.link-card:active {
 		background-color: #d3e805;	
 	}
 }
