@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+}
+body {
+	background-color: #505160;
+}
+header {
+	padding-top: 100px;
+}
+.photo-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.photo {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.photo img {
+	object-fit: cover;
+	height: 200px;
+	width: 200px;
+}
+.greating-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+}
+.greating-wrapper h1 {
+	font-size: 30px;
+}
+.greating-wrapper p {
+	font-size: 15px;
+}
+.content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 100px;
+}
+.content {
+	height: fit-content;
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+}
+.content a div {
+	padding-top: 25px;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+}
+.link-card {
+	display: flex;
+	background-color: #68829e;
+	border-radius: 15px;
+	margin-top: 25px;
+}
+.link-card:hover {
+	background-color: #d3e805;
+	color: black;
+	transition: 0.5s ease-in-out;
+}
+.link-card p {
+	margin: 0;
+	font-size: 30px;
+	flex: 1;
+	text-align: center;
+}
+.link-card img {
+	position: relative;
+	transform: translateX(50%);
+	top: -10px;
+	height: 55px;
+}
+.right-title {
+	color: #fff;
+	font-weight: 800;
+	font-size: 100px;
+	writing-mode: vertical-lr;
+	position: absolute;
+	right: 10%;
+}
+footer {
+	margin-top: 200px;
+	height: 120px;
+	background-color: #68829e;
+	color: #fff;
+}
+.copyright {
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* Small phones */
+@media (max-width: 400px) {
+	.content {
+		width: 300px;
+	}
+	.right-title {
+		display: none;
+	}
+}
+/* Mobile phones */
+@media (max-width: 480px) {
+	.content {
+		width: 350px;
+	}
+	.right-title {
+		display: none;
+	}
+}
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+	.content {
+		width: 650px;
+	}
+	.right-title {
+		display: none;
+	}
+}
+/* Small monitors and small laptops */
+@media (max-width: 1280px) {
+	.content {
+		width: 950px;
+	}
+	.right-title {
+		display: none;
+	}
+}
