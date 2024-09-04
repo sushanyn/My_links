@@ -139,6 +139,11 @@ footer {
 		display: none;
 	}
 }
+@media (hover: hover) {
+	.link-card:hover {
+		background-color: #d3e805;	
+	}	
+}
 @media (hover: none) {
 	.link-card:active {
 		background-color: #d3e805;	
