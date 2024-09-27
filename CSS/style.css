@@ -143,7 +143,7 @@ footer {
 }
 @media (hover: none) {
 	.link-card:active {
-		background-color: #d3e805;	
+		background-color: #d3ef05;	
 		color: black;
 		transition: 0.5s ease-in-out;
 	}
